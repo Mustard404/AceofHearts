@@ -79,7 +79,7 @@ AceofHearts.exe
 
    ![](https://raw.githubusercontent.com/Mustard404/AceofHearts/master/images/5.jpg)
 
-10. 执行后会在工具部署根路径形成LOG.MD。
+10. 执行后会在AceofHearts.exe路径形成LOG.MD。
 
 ## 工具预览
 
