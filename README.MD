@@ -1,5 +1,7 @@
 # AceofHearts
 
+![AceofHearts](https://img.shields.io/badge/AceofHearts-v1.0.0-brightgreen)
+
 红桃A(AceofHearts)是一款专为渗透测试人员设计的实用工具，旨在简化渗透测试环境的搭建过程并提供便捷的部署解决方案。
 
 ## 功能特点
