@@ -1,0 +1,43 @@
+{
+  "FixedFileInfo": {
+    "FileVersion": {
+      "Major": 1,
+      "Minor": 0,
+      "Patch": 0,
+      "Build": 0
+    },
+    "ProductVersion": {
+      "Major": 1,
+      "Minor": 0,
+      "Patch": 0,
+      "Build": 0
+    },
+    "FileFlagsMask": "3f",
+    "FileFlags ": "00",
+    "FileOS": "040004",
+    "FileType": "01",
+    "FileSubType": "00"
+  },
+  "StringFileInfo": {
+    "Comments": "",
+    "CompanyName": "Mustard404",
+    "FileDescription": "",
+    "FileVersion": "v1.01",
+    "InternalName": "",
+    "LegalCopyright": "Copyright 2023 Mustard404 . All rights reserved.",
+    "LegalTrademarks": "",
+    "OriginalFilename": "",
+    "PrivateBuild": "",
+    "ProductName": "AceofHearts",
+    "ProductVersion": "v1.0.0.0",
+    "SpecialBuild": ""
+  },
+  "VarFileInfo": {
+    "Translation": {
+      "LangID": "0409",
+      "CharsetID": "04B0"
+    }
+  },
+  "IconPath": "AceofHearts.ico",
+  "ManifestPath": ""
+}
