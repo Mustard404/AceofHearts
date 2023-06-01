@@ -288,3 +288,14 @@ AceofHearts.exe
 - Proxifier 4: 5EZ8G-C3WL5-B56YG-SCXM9-6QZAP
 - [Typora](https://fahai.org/jszt/14.html)
 - [Sublime Test](https://gist.github.com/opastorello/4d494d627ec9012367028c89cb7a1945)
+
+## Star History
+
+<a href="https://star-history.com/#Mustard404/AceofHearts&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Mustard404/AceofHearts&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Mustard404/AceofHearts&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Mustard404/AceofHearts&type=Date" />
+  </picture>
+</a>
+
