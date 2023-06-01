@@ -39,15 +39,15 @@
 	
 	- OAuth Apps 》New OAuth Apps
 	
-	  ![](.\images\1.jpg)
+	  ![](https://raw.githubusercontent.com/Mustard404/AceofHearts/master/images/1.jpg)
 	
 	- Homepage URL及Authorization callback URL 随意填写
 	
-	  ![2](.\images\2.jpg)
+	  ![](https://raw.githubusercontent.com/Mustard404/AceofHearts/master/images/2.jpg)
 	
 	- 生成 Client Secrets
 	
-	  ![3](.\images\3.jpg)
+	  ![](https://raw.githubusercontent.com/Mustard404/AceofHearts/master/images/3.jpg)
 	
 ## 安装
 
@@ -61,9 +61,6 @@
 set http_proxy=http://127.0.0.1:7890
 set https_proxy=http://127.0.0.1:7890
 set socks_proxy=socks5://127.0.0.1:7890
-set http_proxy=http://10.211.55.2:7890
-set https_proxy=http://10.211.55.2:7890
-set socks_proxy=socks5://10.211.55.2:7890
 ```
 6. 执行程序。
 ```
@@ -72,11 +69,11 @@ AceofHearts.exe
 7. 输入github的 Client ID 和 Client Secrets。
 8. 设置工具部署路径，默认为 C:\Tools，如需修改，请输入后回车。
 
-   ![4](.\images\4.jpg)
+   ![](https://raw.githubusercontent.com/Mustard404/AceofHearts/master/images/4.jpg)
 
 9. 运行截图。
 
-   ![5](.\images\5.jpg)
+   ![](https://raw.githubusercontent.com/Mustard404/AceofHearts/master/images/5.jpg)
 
 10. 执行后会在工具部署根路径形成LOG.MD。
 
