@@ -13,6 +13,7 @@ func main() {
 	executablePath, _ := os.Executable()
 	config.ExecutablePath = filepath.Dir(executablePath)
 	logFile := filepath.Join(config.ExecutablePath, "LOG.MD")
+
 	os.RemoveAll(logFile)
 	models.Banner()
 	models.Setting()

@@ -6,6 +6,8 @@ import (
 	"bufio"
 	"encoding/base64"
 	"fmt"
+	"gopkg.in/ini.v1"
+	"log"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -19,14 +21,20 @@ func Setting() {
 }
 
 func GenerateAccessToken() {
-	utils.Title("设置Github API")
-	reader := bufio.NewReader(os.Stdin)
-	fmt.Print("请输入Client ID：")
-	clientID, _ := reader.ReadString('\n')
-	clientID = strings.TrimSpace(clientID)
-	fmt.Print("请输入Client Secrets：")
-	clientSecrets, _ := reader.ReadString('\n')
-	clientSecrets = strings.TrimSpace(clientSecrets)
+	utils.Title("读取Github API")
+
+	conFine := filepath.Join(config.ExecutablePath, "config.ini")
+	cfg, err := ini.Load(conFine)
+	if err != nil {
+		log.Fatal("Error loading config file:", err)
+	}
+
+	// 获取配置值
+	clientID := cfg.Section("Github").Key("clientID").String()
+	clientSecrets := cfg.Section("Github").Key("clientSecrets").String()
+
+	fmt.Println(fmt.Sprintf("clientID: %s", clientID))
+	fmt.Println(fmt.Sprintf("clientSecrets: %s", clientSecrets))
 
 	if len(clientID) == 0 || len(clientSecrets) == 0 {
 		fmt.Print(config.Red("Client ID和Client Secrets不可为空"))
