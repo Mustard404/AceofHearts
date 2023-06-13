@@ -67,7 +67,7 @@ set https_proxy=http://127.0.0.1:7890
 set socks_proxy=socks5://127.0.0.1:7890
 ```
 
-6. 在程序路径配置github的 Client ID 和 Client Secrets，最新版Releases已配置公共API。   
+6. 在程序路径配置config.ini的 Client ID 和 Client Secrets，最新版Releases已配置公共API。   
 7. 执行程序。
 ```
 AceofHearts.exe
