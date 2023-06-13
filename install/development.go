@@ -65,7 +65,7 @@ func getNavicatPremium() string {
 		if err := json.Unmarshal(resp.Body(), &response); err != nil {
 			log.Fatal("解析 Navicat Premium 下载地址失败! :", err)
 		}
-		return "https://" + response.DownloadLink
+		return "http://" + response.DownloadLink
 	} else {
 		fmt.Println("请求Navicat Premium 下载地址失败! ，状态码:", resp.StatusCode())
 	}
