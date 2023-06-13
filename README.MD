@@ -68,6 +68,13 @@ set socks_proxy=socks5://127.0.0.1:7890
 ```
 
 6. 在程序路径配置config.ini的 Client ID 和 Client Secrets，最新版Releases已配置公共API。   
+
+```
+[Github]
+clientID = 16489800309c385117b2
+clientSecrets = 1d14c4bfd8ae74e3a64c35f3ed8dfdf81312ae68
+```
+
 7. 执行程序。
 ```
 AceofHearts.exe
