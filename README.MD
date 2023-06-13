@@ -66,11 +66,12 @@ set http_proxy=http://127.0.0.1:7890
 set https_proxy=http://127.0.0.1:7890
 set socks_proxy=socks5://127.0.0.1:7890
 ```
-6. 执行程序。
+
+6. 在程序路径配置github的 Client ID 和 Client Secrets，最新版Releases已配置公共API。   
+7. 执行程序。
 ```
 AceofHearts.exe
 ```
-7. 输入github的 Client ID 和 Client Secrets。
 8. 设置工具部署路径，默认为 C:\Tools，如需修改，请输入后回车。
 
    ![](https://raw.githubusercontent.com/Mustard404/AceofHearts/master/images/4.jpg)
