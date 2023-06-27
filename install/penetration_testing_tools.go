@@ -224,7 +224,7 @@ func fingerprinting() {
 	fmt.Println(config.Green("CMSeeK 部署完成！"))
 	utils.Log(fmt.Sprintf("-\tCMSeeK\n\t-\tVersion: %s\n\t-\t简介: %s\n\t-\t安装路径: %s\n", version, description, config.ToolDirectory["CMSeeK"]))
 
-	filename, version, description = utils.GitReleases("EdgeSecurityTeam", "EHole", "Win.zip", config.ToolDirectory["TEMP"])
+	filename, version, description = utils.GitReleases("EdgeSecurityTeam", "EHole", "windows", config.ToolDirectory["TEMP"])
 	utils.Unzip(filename, config.ToolDirectory["EHole"], false)
 	fmt.Println(config.Green("EHole 部署完成！"))
 	utils.Log(fmt.Sprintf("-\tCMSeeK\n\t-\tVersion: %s\n\t-\t简介: %s\n\t-\t安装路径: %s\n", version, description, config.ToolDirectory["EHole"]))
