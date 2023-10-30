@@ -143,7 +143,7 @@ func EXP() {
 	fmt.Println(config.Green("Advanced-SQL-Injection-Cheatsheet 部署完成！"))
 	utils.Log(fmt.Sprintf("-\tAdvanced-SQL-Injection-Cheatsheet\n\t-\tVersion: 无\n\t-\t简介: 此存储库包含所有类型的 SQL 注入的高级方法。\n\t-\t安装路径: %s\n", config.ToolDirectory["Advanced_SQL_Injection_Cheatsheet"]))
 
-	filename, version, description = utils.GitReleases("teamssix", "cf", "windows_amd64.zip", config.ToolDirectory["TEMP"])
+	filename, version, description = utils.GitReleases("Mustard404", "cf", "windows_amd64.zip", config.ToolDirectory["TEMP"])
 	utils.Unzip(filename, config.ToolDirectory["CF"], false)
 	fmt.Println(config.Green("CF 部署完成！"))
 	utils.Log(fmt.Sprintf("-\tCF\n\t-\tVersion: %s\n\t-\t简介: %s\n\t-\t安装路径: %s\n", version, description, config.ToolDirectory["CF"]))
