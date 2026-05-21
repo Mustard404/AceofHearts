@@ -1,0 +1,15 @@
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.log
+LOG.MD
+config.ini
+TEMP/
+.idea/
+.vscode/
+.claude/
+.DS_Store
